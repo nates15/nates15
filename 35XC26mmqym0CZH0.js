@@ -34,7 +34,7 @@ var i=0;
 
 function checkConsole(){
     if (i === 10) {
-	document.getElementById('smefpw2').innerHTML = "<font face=\"verdana\"><font color=\"#95b806\">[annihilated]</font> console reset<br></font>";
+	document.getElementById('smefpw2').innerHTML = "<font face=\"verdana\"><font color=\"#95b806\">[pvper]</font> console reset<br></font>";
 	i=1;
 	}
 }
@@ -42,7 +42,7 @@ function checkConsole(){
 // disable rightclick
 document.addEventListener("contextmenu", function(disablemouse) {
  disablemouse.preventDefault();
-document.getElementById('smefpw2').innerHTML += "<font face=\"verdana\"><font color=\"#95b806\">[annihilated]</font> context menu disabled</font><br>";
+document.getElementById('smefpw2').innerHTML += "<font face=\"verdana\"><font color=\"#95b806\">[pvper]</font> context menu disabled</font><br>";
 i += 1;
 checkConsole();
 }, false);
@@ -50,25 +50,25 @@ checkConsole();
 
 // urls functions
 function twitter() {
-	document.getElementById('smefpw2').innerHTML += "<font face=\"verdana\"><font color=\"#95b806\">[annihilated]</font> twitter link clicked</font><br>";
+	document.getElementById('smefpw2').innerHTML += "<font face=\"verdana\"><font color=\"#95b806\">[pvper]</font> twitter link clicked</font><br>";
 	i += 1;
 	checkConsole();
 }
 
 function discord() {
-	document.getElementById('smefpw2').innerHTML += "<font face=\"verdana\"><font color=\"#95b806\">[annihilated]</font> discord link clicked</font><br>";
+	document.getElementById('smefpw2').innerHTML += "<font face=\"verdana\"><font color=\"#95b806\">[pvper]</font> discord link clicked</font><br>";
 	i += 1;
 checkConsole();
 }
 
 function selly() {
-	document.getElementById('smefpw2').innerHTML += "<font face=\"verdana\"><font color=\"#95b806\">[annihilated]</font> void.to link clicked</font><br>";
+	document.getElementById('smefpw2').innerHTML += "<font face=\"verdana\"><font color=\"#95b806\">[pvper]</font> youtube link clicked</font><br>";
 	i += 1;
 checkConsole();
 }
 
 function youtube() {
-	document.getElementById('smefpw2').innerHTML += "<font face=\"verdana\"><font color=\"#95b806\">[annihilated]</font> steam link clicked</font><br>";
+	document.getElementById('smefpw2').innerHTML += "<font face=\"verdana\"><font color=\"#95b806\">[pvper]</font> discord link clicked</font><br>";
 	i += 1;
 checkConsole();
 }
@@ -78,10 +78,10 @@ checkConsole();
 function checkURL() {
 var currentLocation = window.location.href;
 	if (currentLocation == "https://smef.pw/") {
-		document.getElementById('smefpw').innerHTML += "<br><font face=\"verdana\"><font color=\"#95b806\">[annihilated]</font> official site<br></font>";
+		document.getElementById('smefpw').innerHTML += "<br><font face=\"verdana\"><font color=\"#95b806\">[pvper]</font> official site<br></font>";
 }	
 else {
-		document.getElementById('smefpw').innerHTML += "<br><font face=\"verdana\"><font color=\"#95b806\">[annihilated]</font> unverified site current site " + window.location.href + " differs from official site smef.pw<br></font>";
+		document.getElementById('smefpw').innerHTML += "<br><font face=\"verdana\"><font color=\"#95b806\">[pvper]</font> unverified site current site " + window.location.href + " differs from official site smef.pw<br></font>";
 	}
 }
 // site checker
