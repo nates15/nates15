@@ -81,7 +81,7 @@ a:hover{
   width: 250%;
   height: 250%;
   pointer-events: none;
-  filter: blur(10px);
+  filter: blur(0px);
 }
 #vidtop-content {
     top: 0;
